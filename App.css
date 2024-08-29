@@ -1,0 +1,84 @@
+body {
+  background-color: #0055cc;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.board {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  cursor: pointer;
+}
+
+.card input {
+  width: 100%;
+  font-size: 1.5em;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task {
+  background-color: #e0e0e0;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  cursor: grab;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.task-input textarea {
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-input button {
+  align-self: flex-end;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+header {
+  background-color: #09326c;
+  color: white;
+  text-align: center;
+  height: auto;
+  padding: 1px;
+  width: 100vw;
+}
